@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,21 +18,44 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <main class="card">
+    <article>
+      <img alt="hero-img" id="hero-img" src="./images/bg-pattern-card.svg">
+      <img alt="profile pic" id="profile-picture" src="./images/memoji-smile gradient.png">
+    </article>
+  
+    <section class="bio">
+      <div>
+        <p id="name">AlanaCapCreates</p>
+        <p id="age">23</p>
+      </div>
+      <p id="location">New York</p>
+    </section>
 
-  80K
-  Followers
+    <section class="stats">
+      <div>
+        <p class="numeric">80K</p>
+        <p class="label">Followers</p>
+      </div>
+      <div>
+        <p class="numeric">803K</p>
+        <p class="label">Likes</p>
+      </div>
+      <div>
+        <p class="numeric">1.4K</p>
+        <p class="label">Photos</p>
+      </div>
+    </section> 
 
-  803K
-  Likes
+  </main>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://alanacapcreates.com">AlanaCapCreates</a>.
+    </div>
+  </footer>
+
 </body>
 </html>

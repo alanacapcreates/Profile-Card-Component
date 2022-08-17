@@ -1,0 +1,101 @@
+:root{
+    /* ## Colors */
+        /* ### Primary */
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    
+        /* ### Neutral */
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+/* ## Typography */
+    /* ### Body Copy */
+        /* ### Font */
+            /* - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+                - Weights: 400, 700 */
+
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Dark-cyan);
+    justify-content: center;
+    align-items: center;
+
+    background-image:  url('./images/bg-pattern-top.svg'),
+    url('./images/bg-pattern-bottom.svg');;
+    background-repeat:  no-repeat, no-repeat;
+    background-position:  top left, bottom right;
+
+}
+
+.card{
+    background-color: #ffffff;
+    display: flex;
+    width: 350px;
+    border-radius: 10px;
+    flex-direction: column;
+
+    text-align: center;
+}
+#hero-img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+#profile-picture{
+    margin-top: -60px ;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+}
+.bio{
+    margin: 1em 0;
+    width: 100%;
+}
+#name{
+    color: var(--Very-dark-desaturated-blue);
+    display: inline-block;
+    font-weight: 700;
+    margin-right: .5em;
+}
+.bio p:nth-child(2){
+    display: inline-block;
+}
+#location{
+    margin-top: .5em;
+    font-size: 14px;
+}
+#age,
+#location{
+    color: var(--Dark-gray); 
+}
+.stats{
+    text-align: center;
+    border-top: 1px solid var(--Dark-gray);
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.label{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--Dark-gray);
+}
+.stats .numeric{
+    font-weight: 700;
+}
+#name,
+#age,
+.numeric{
+font-size: 18px;
+}
