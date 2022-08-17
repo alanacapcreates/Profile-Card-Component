@@ -21,9 +21,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Build out the project to the designs provided
 
 ### Screenshot
-1. Mobile Version
+#### 1. Mobile
 ![Mobile Solution Screenshot](./images/mobile-solution-screenshot.png)
-2. Desktop Version
+#### 2. Desktop
 ![Desktop Solution Screenshot](./images/desktop-solution-screenshot.png)
 
 ### Links
