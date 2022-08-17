@@ -21,15 +21,15 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Build out the project to the designs provided
 
 ### Screenshot
-1. Mobile Version
+#### 1. Mobile
 ![Mobile Solution Screenshot](./images/mobile-solution-screenshot.png)
-2. Desktop Version
+#### 2. Desktop
 ![Desktop Solution Screenshot](./images/desktop-solution-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [acc-fm-profile-card-component.netlify.app](acc-fm-profile-card-component.netlify.app)
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-using-html-and-css-LiPIPfm7Ut](https://www.frontendmentor.io/solutions/profile-card-component-using-html-and-css-LiPIPfm7Ut)
+- Live Site URL: [https://acc-fm-profile-card-component.netlify.app](https://acc-fm-profile-card-component.netlify.app)
 
 ## My process
 
