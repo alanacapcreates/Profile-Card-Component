@@ -10,9 +10,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 
@@ -23,14 +21,15 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Build out the project to the designs provided
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
+1. Mobile Version
+![Mobile Solution Screenshot](./images/mobile-solution-screenshot.png)
+2. Desktop Version
+![Desktop Solution Screenshot](./images/desktop-solution-screenshot.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [acc-fm-profile-card-component.netlify.app](acc-fm-profile-card-component.netlify.app)
 
 ## My process
 
@@ -41,13 +40,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Flexbox
 - Mobile-first workflow
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-
-
 ## Author
 
 - Website - [Alana Caporale](https://alanacapcreates.com)
@@ -55,8 +47,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Twitter - [@AlanaCapCreates](https://www.twitter.com/alanacapcreates)
 - Instagram - [@AlanaCap.Creates](https://www.instagram.com/alanacap.creates/?hl=en)
 
-
-## Acknowledgments
-
-Thank you to those that gave me suggestions in my live stream!
 
